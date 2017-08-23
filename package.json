@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/webpack",
     "start": "./node_modules/.bin/webpack-dev-server --hot --inline",
+    "start2": "node start.js",
     "dll": "./node_modules/.bin/webpack --config webpack.dll.config.js"
   },
   "author": "linjson",
