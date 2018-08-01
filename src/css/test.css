@@ -1,0 +1,13 @@
+body{
+    background: aqua;
+}
+
+.img{
+    background-image: url(../images/launcher_icon.png);
+    width:40px;
+    height:40px;
+}
+
+.unuse{
+    width:40px;
+}

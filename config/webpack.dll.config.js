@@ -6,7 +6,7 @@ module.exports = {
         vendor: ['lodash','jquery','react', 'react-dom','bootstrap'],
     },
     output: {
-        path: path.join(__dirname, 'dist'),
+        path: path.join(__dirname, '../dist'),
         filename: '[name].dll.js',
         /**
          * output.library
@@ -22,13 +22,13 @@ module.exports = {
              * 定义 manifest 文件生成的位置
              * [name]的部分由entry的名字替换
              */
-            path: path.join(__dirname, 'dist', '[name]-manifest.json'),
+            path: path.join(__dirname, '../dist', '[name]-manifest.json'),
             /**
              * name
              * dll bundle 输出到那个全局变量上
              * 和 output.library 一样即可。
              */
-            name: '[name]_library'
+            name: '[name]_library',
         }),
         // new webpack.optimize.UglifyJsPlugin({
         //     compress: {
